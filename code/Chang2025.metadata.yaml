@@ -1,0 +1,113 @@
+_dataset:
+  class: Chang2025
+  code: Chang2025
+  doi: 10.1038/s41597-025-06147-6
+  interval:
+  - 0
+  - 4
+  n_subjects: 28
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 59
+  hardware: Neuracle BRK-NSW 2.0
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 59
+  sampling_rate: 1000.0
+  sensor_type: Ag/AgCl
+bci_application:
+  applications:
+  - rehabilitation
+  environment: laboratory
+cross_validation:
+  cv_folds: 10
+  cv_method: 10-fold
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_trials: 13440
+  trials_context: 28 subjects x 4 MI sessions x 3 classes x 40 trials = 13440
+documentation:
+  country: CN
+  data_url: https://figshare.com/articles/dataset/28831730
+  doi: 10.1038/s41597-025-06147-6
+  institution: Lanzhou Jiaotong University
+  institution_department: School of Electronic and Information Engineering
+  investigators:
+  - Wenwen Chang
+  - Weixuan Kong
+  - Guanghui Yan
+  - Renjie Lv
+  - Kaiyue Du
+  - Muhammad Tariq Sadiq
+  - Bin Guo
+  - Rong Yin
+  - Xuan Liu
+  license: CC-BY-4.0
+  publication_year: 2025
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  - both_hands
+  events:
+    both_hands: 3
+    left_hand: 1
+    right_hand: 2
+  feedback_type: none
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cue (square)
+  study_design: '6 rehabilitation paradigms (ME, MI, VR-MI, MT, SRG, MG). Default: MI paradigm with 3 classes (L/R/both hands),
+    4 sessions, 40 trials/class.'
+  synchronicity: synchronous
+  trial_duration: 6.0
+file_format: SET (EEGLAB)
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - left_hand
+  - right_hand
+  - both_hands
+participants:
+  age_max: 33.0
+  age_min: 20.0
+  gender:
+    female: 14
+    male: 14
+  handedness: right-handed
+  health_status: healthy
+  n_subjects: 28
+  species: human
+runs_per_session: 1
+sessions_per_subject: 4
+signal_processing:
+  classifiers:
+  - CSP+SVM
+  - FBCSP+SVM
+  feature_extraction:
+  - CSP
+  - FBCSP
+  frequency_bands:
+    FBCSP_range:
+    - 4.0
+    - 28.0
+    alpha:
+    - 8.0
+    - 13.0
+  spatial_filters:
+  - CSP
+  - FBCSP
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Research
