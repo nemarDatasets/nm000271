@@ -1,0 +1,32 @@
+{
+  "Name": "Chang et al. 2025 — A multi-paradigm EEG dataset for studying upper limb rehabilitation exercises (Lanzhou Jiaotong University)",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Wenwen Chang",
+    "Weixuan Kong",
+    "Guanghui Yan",
+    "Renjie Lv",
+    "Kaiyue Du",
+    "Muhammad Tariq Sadiq",
+    "Bin Guo",
+    "Rong Yin",
+    "Xuan Liu"
+  ],
+  "DatasetDOI": "doi:10.1038/s41597-025-06147-6",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41597-025-06147-6",
+    "https://figshare.com/articles/dataset/28831730"
+  ],
+  "Acknowledgements": "School of Electronic and Information Engineering, Lanzhou Jiaotong University",
+  "PublicationYear": 2025,
+  "Keywords": [
+    "motor imagery",
+    "upper limb",
+    "rehabilitation",
+    "EEG",
+    "multi-paradigm"
+  ],
+  "Version": "1.0.1"
+}
