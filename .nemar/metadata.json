@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Wenwen Chang": {},
+    "Weixuan Kong": {
+      "orcid": "0009-0004-5632-2575"
+    },
+    "Guanghui Yan": {},
+    "Renjie Lv": {},
+    "Kaiyue Du": {},
+    "Muhammad Tariq Sadiq": {},
+    "Bin Guo": {},
+    "Rong Yin": {},
+    "Xuan Liu": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-06147-6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000271",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000271",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Chang et al. 2025 — A multi-paradigm EEG dataset for studying upper limb rehabilitation exercises (Lanzhou Jiaotong University)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "3.7 GB (114 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A multi-paradigm EEG dataset comprising scalp electroencephalography recordings from 28 participants performing and imagining upper-limb rehabilitation exercises. This dataset is designed to support research on motor imagery and rehabilitation brain-computer interfaces (BCI) for upper-limb motor function recovery and assessment.",
+  "methods_description": "Scalp EEG recordings were acquired while participants performed or imagined upper-limb rehabilitation exercises under a multi-paradigm protocol. The dataset includes motor imagery task data (task-imagery) organized in BIDS format across 28 subjects.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "upper limb rehabilitation"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Motor Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
+    }
+  ],
+  "source_hash": "49bf85a6071162a046a039ec242fbc1267792410b61f6063ca92233dfe4ce06e"
+}
