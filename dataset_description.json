@@ -14,7 +14,7 @@
     "Rong Yin",
     "Xuan Liu"
   ],
-  "DatasetDOI": "doi:10.1038/s41597-025-06147-6",
+  "DatasetDOI": "10.82901/nemar.nm000271",
   "ReferencesAndLinks": [
     "https://doi.org/10.1038/s41597-025-06147-6",
     "https://figshare.com/articles/dataset/28831730"
@@ -28,5 +28,10 @@
     "EEG",
     "multi-paradigm"
   ],
-  "Version": "1.0.1"
+  "Version": "1.0.1",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.1038/s41597-025-06147-6"
+    }
+  ]
 }
