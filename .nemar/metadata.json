@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Chang et al. 2025 — A multi-paradigm EEG dataset for studying upper limb rehabilitation exercises (Lanzhou Jiaotong University)",
-  "description": "A multi-paradigm EEG dataset comprising scalp electroencephalography recordings from 28 participants performing and imagining upper-limb rehabilitation exercises. This dataset is designed to support research on motor imagery and rehabilitation brain-computer interfaces for upper-limb function recovery.",
-  "methods_description": "Scalp EEG recordings were acquired while participants performed or imagined upper-limb rehabilitation exercises under a multi-paradigm protocol. The dataset includes motor imagery tasks (task-imagery) organized in BIDS format across 28 subjects.",
+  "description": "A multi-paradigm EEG dataset comprising scalp electroencephalography recordings from 28 participants performing and imagining upper-limb rehabilitation exercises. This dataset is designed to support research on motor imagery and rehabilitation brain-computer interfaces (BCIs) for upper-limb motor function recovery and assessment.",
+  "methods_description": "Scalp EEG recordings were acquired while participants performed or imagined upper-limb rehabilitation exercises under a multi-paradigm protocol. The dataset includes motor imagery task data (task-imagery) organized in BIDS format across 28 subjects.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -34,6 +34,21 @@
     },
     {
       "term": "multi-paradigm"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Rehabilitation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000071939"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001930"
     }
   ],
   "related_identifiers": [
@@ -71,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "8aafbab213f593a800eeab15d9786ae6728fdbb0d6782f06b128b6bb2bd75a7d"
+  "source_hash": "ddd4138cd94ed25de3d6503a248e5d65368cb1e3bf943c60a8d890de25d7d13b"
 }
