@@ -1,5 +1,5 @@
 {
-  "Name": "Chang et al. 2025 \u2014 A multi-paradigm EEG dataset for studying upper limb rehabilitation exercises (Lanzhou Jiaotong University)",
+  "Name": "Chang et al. 2025 — A multi-paradigm EEG dataset for studying upper limb rehabilitation exercises (Lanzhou Jiaotong University)",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "raw",
@@ -29,7 +29,7 @@
     "EEG",
     "multi-paradigm"
   ],
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "SourceDatasets": [
     {
       "DOI": "doi:10.1038/s41597-025-06147-6"
