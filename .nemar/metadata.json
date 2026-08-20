@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Chang et al. 2025 — A multi-paradigm EEG dataset for studying upper limb rehabilitation exercises (Lanzhou Jiaotong University)",
-  "description": "A multi-paradigm EEG dataset comprising scalp electroencephalography recordings from 28 participants performing and imagining upper-limb rehabilitation exercises. This dataset is designed to support research on motor imagery and rehabilitation brain-computer interfaces (BCIs) for upper-limb motor function recovery and assessment.",
-  "methods_description": "Scalp EEG recordings were acquired while participants performed or imagined upper-limb rehabilitation exercises under a multi-paradigm protocol. The dataset includes motor imagery task data (task-imagery) organized in BIDS format across 28 subjects.",
+  "description": "This dataset contains scalp EEG recordings from 28 participants performing or imagining upper-limb rehabilitation exercises under a multi-paradigm protocol. It was designed to support research on motor-imagery-based brain–computer interfaces (BCI) for upper-limb rehabilitation. The data have been converted to BIDS format from the original dataset published by Chang et al. (2025).",
+  "methods_description": "EEG data were recorded from 28 participants performing a motor-imagery task involving upper-limb rehabilitation exercises under a multi-paradigm protocol, organized under the eeg/ modality with task-imagery.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -27,28 +27,18 @@
       "term": "motor imagery"
     },
     {
-      "term": "upper limb rehabilitation"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "multi-paradigm"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "upper limb"
     },
     {
       "term": "Rehabilitation",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000071939"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001930"
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "multi-paradigm"
     }
   ],
   "related_identifiers": [
@@ -86,5 +76,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "ddd4138cd94ed25de3d6503a248e5d65368cb1e3bf943c60a8d890de25d7d13b"
+  "source_hash": "7b6f41f8e6264ce1e711ff147fdf990bb9156046df2021f0f44483d777088575"
 }
