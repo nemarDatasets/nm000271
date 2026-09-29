@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Chang et al. 2025 — A multi-paradigm EEG dataset for studying upper limb rehabilitation exercises (Lanzhou Jiaotong University)",
-  "description": "This dataset contains scalp EEG recordings from 28 participants performing or imagining upper-limb rehabilitation exercises under a multi-paradigm protocol. It was designed to support research on motor-imagery-based brain–computer interfaces (BCI) for upper-limb rehabilitation. The data have been converted to BIDS format from the original dataset published by Chang et al. (2025).",
+  "description": "This dataset contains scalp EEG recordings from 28 participants performing or imagining upper-limb rehabilitation exercises under a multi-paradigm protocol. It is intended to support research on motor-imagery and rehabilitation brain-computer interfaces for restoring upper-limb function. The data are organized in BIDS format under a motor-imagery task.",
   "methods_description": "EEG data were recorded from 28 participants performing a motor-imagery task involving upper-limb rehabilitation exercises under a multi-paradigm protocol, organized under the eeg/ modality with task-imagery.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
@@ -30,15 +30,15 @@
       "term": "upper limb"
     },
     {
-      "term": "Rehabilitation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
+      "term": "rehabilitation"
     },
     {
       "term": "brain-computer interface"
     },
     {
-      "term": "multi-paradigm"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -64,7 +64,7 @@
     "eeg"
   ],
   "sizes": [
-    "50.5 GB (1582 files)"
+    "47.06 GB (1582 files)"
   ],
   "formats": [
     ".bdf",
